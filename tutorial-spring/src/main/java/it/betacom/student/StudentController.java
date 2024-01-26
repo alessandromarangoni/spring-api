@@ -1,7 +1,5 @@
 package it.betacom.student;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 //qui per far si che una volta lanciato sia un rest
 @RestController
-@RequestMapping(path = "api/v1/students")
+@RequestMapping(path = "students")
 public class StudentController {
 	
 	private final StudentService studentService;
